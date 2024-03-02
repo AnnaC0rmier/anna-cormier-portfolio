@@ -8,10 +8,10 @@ import CardCover from '@mui/joy/CardCover';
 import CardContent from '@mui/joy/CardContent';
 
 const Item = styled('div')({
-  backgroundColor: 'lightgray',
   padding: '20px',
   textAlign: 'center',
-  height: '200px', // Adjust the height as per your preference
+  height: '200px',
+  color: '#bb642d', // Text color set to brown
 });
 
 const LoremIpsum =
@@ -23,80 +23,68 @@ export default function MyAbout() {
       <Grid
         container
         rowSpacing={1}
-        columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-        sx={{ width: '100%' }}
+        columnSpacing={{ xs: 1, sm: 1, md: 3 }}
+        sx={{ width: '100%', marginTop: 10 }}
       >
         <Grid item xs={6}>
-          <Item>
-          <Card component="li" sx={{ minWidth: 500, flexGrow: 1 }}>
-        <CardCover>
-          <video
-            autoPlay
-            loop
-            muted
-            poster="https://assets.codepen.io/6093409/river.jpg"
-          >
-            <source
-              src="https://assets.codepen.io/6093409/river.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </CardCover>
-        <CardContent>
-          <Typography
-            level="body-lg"
-            fontWeight="lg"
-            textColor="#fff"
-            mt={{ xs: 12, sm: 18 }}
-          >
-            Video
-          </Typography>
-        </CardContent>
-      </Card>
+          <Item sx={{ marginBottom: 5 }}>
+            <Card component="li" sx={{ minWidth: 300, height: 200, flexGrow: 1 }}>
+              <CardCover>
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  poster="https://assets.codepen.io/6093409/river.jpg"
+                >
+                  <source
+                    src="https://assets.codepen.io/6093409/river.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </CardCover>
+              <CardContent></CardContent>
+            </Card>
           </Item>
         </Grid>
         <Grid item xs={6}>
-          <Item>{LoremIpsum}</Item>
+          <Item sx={{ backgroundColor: '#cdac79', borderRadius: 5 }}>
+            <h1>HOW I WENT FROM THIS...</h1>
+            {LoremIpsum}
+          </Item>
         </Grid>
         <Grid item xs={6}>
-          <Item>{LoremIpsum}</Item>
+          <Item sx={{ backgroundColor: '#cdac79', borderRadius: 5 }}>
+            <h1>TO THIS</h1>
+            {LoremIpsum}
+          </Item>
         </Grid>
         <Grid item xs={6}>
           <Item>
-          <Card component="li" sx={{ minWidth: 500, flexGrow: 1 }}>
-        <CardCover>
-          <video
-            autoPlay
-            loop
-            muted
-            poster="https://assets.codepen.io/6093409/river.jpg"
-          >
-            <source
-              src="https://assets.codepen.io/6093409/river.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </CardCover>
-        <CardContent>
-          <Typography
-            level="body-lg"
-            fontWeight="lg"
-            textColor="#fff"
-            mt={{ xs: 12, sm: 18 }}
-          >
-            Video
-          </Typography>
-        </CardContent>
-      </Card>
+            <Card component="li" sx={{ minWidth: 300, height: 200, flexGrow: 1 }}>
+              <CardCover>
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  poster="https://assets.codepen.io/6093409/river.jpg"
+                >
+                  <source
+                    src="https://assets.codepen.io/6093409/river.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </CardCover>
+              <CardContent></CardContent>
+            </Card>
           </Item>
         </Grid>
       </Grid>
 
-      <Card size="lg" sx={{ marginTop: '50px', textAlign: 'center', backgroundColor: 'lightgray' }}>
-        <Typography variant="h2" fontWeight="bold" mt={4} mb={2}>
+      <Card size="lg" sx={{ marginTop: '50px', textAlign: 'center', backgroundColor: '#cdac79' ,color:'#bb642d' }}>
+        <Typography variant="h2" fontWeight="bold" mt={4} mb={2} color='#bb642d'>
           ABOUT ME AND MY JOURNEY
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body1" color='#bb642d'>
           {LoremIpsum}
           {LoremIpsum}
           {LoremIpsum}
@@ -105,3 +93,4 @@ export default function MyAbout() {
     </>
   );
 }
+
