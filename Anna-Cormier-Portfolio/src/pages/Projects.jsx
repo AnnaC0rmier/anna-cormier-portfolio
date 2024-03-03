@@ -13,7 +13,7 @@ const LoremIpsum =
 
 
 
-export default function RowAndColumnSpacing() {
+export default function Projects() {
   return (
     <Grid
       container
@@ -28,7 +28,7 @@ export default function RowAndColumnSpacing() {
       sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0 }}
     >
      
-      <Card component="li" sx={{ minWidth: 300, flexGrow: 1, marginBottom:3}}>
+      <Card component="li" sx={{ minWidth: 300, flexGrow: 1, marginBottom:15}}>
         <CardCover>
           <video
             autoPlay
@@ -58,7 +58,7 @@ export default function RowAndColumnSpacing() {
       </Grid>
       <Grid xs={6}>
        
-        <Card sx={{ maxWidth: 500, marginBottom:3,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))` }}>
+        <Card sx={{ maxWidth: 500, marginBottom:15,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))` }}>
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color="black">
@@ -80,7 +80,7 @@ export default function RowAndColumnSpacing() {
       sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0 }}
     >
      
-      <Card component="li" sx={{ minWidth: 300, flexGrow: 1 , marginBottom:3 }}>
+      <Card component="li" sx={{ minWidth: 300, flexGrow: 1 , marginBottom:15 }}>
         <CardCover>
           <video
             autoPlay
@@ -110,7 +110,7 @@ export default function RowAndColumnSpacing() {
       </Grid>
       <Grid xs={6}>
        
-        <Card sx={{ maxWidth: 500 , marginBottom:3,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))`}}>
+        <Card sx={{ maxWidth: 500 , marginBottom:15,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))`}}>
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color="black">
@@ -132,7 +132,7 @@ export default function RowAndColumnSpacing() {
       sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0 }}
     >
      
-      <Card component="li" sx={{ minWidth: 300, flexGrow: 1  , marginBottom:3}}>
+      <Card component="li" sx={{ minWidth: 300, flexGrow: 1  , marginBottom:15}}>
         <CardCover>
           <video
             autoPlay
@@ -162,7 +162,7 @@ export default function RowAndColumnSpacing() {
       </Grid>
       <Grid xs={6}>
        
-        <Card sx={{ maxWidth: 500 , marginBottom:3,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))` }}>
+        <Card sx={{ maxWidth: 500 , marginBottom:15,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))` }}>
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color="black">
@@ -184,7 +184,7 @@ export default function RowAndColumnSpacing() {
       sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0 }}
     >
      
-      <Card component="li" sx={{ minWidth: 300, flexGrow: 1 , marginBottom:3 }}>
+      <Card component="li" sx={{ minWidth: 300, flexGrow: 1 , marginBottom:15 }}>
         <CardCover>
           <video
             autoPlay
@@ -214,7 +214,7 @@ export default function RowAndColumnSpacing() {
       </Grid>
       <Grid xs={6}>
   
-        <Card sx={{ maxWidth: 500 , marginBottom:3,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))` }}>
+        <Card sx={{ maxWidth: 500 , marginBottom:15,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))` }}>
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color="black">

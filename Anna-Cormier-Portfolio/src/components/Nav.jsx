@@ -2,27 +2,69 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
+import Tooltip from '@mui/material/Tooltip';
 
 export default function Nav() {
+  const buttonStyle = {
+    borderRadius: 5,
+    fontSize: 20,
+    margin: 5,
+    border: '1px solid white',
+  };
+
+  const hoverStyle = {
+    backgroundColor: 'transparent',
+    '&:hover': {
+      backgroundColor: 'white',
+    },
+  };
+
   return (
-    <div style = {{backgroundColor: 'rgba(255, 255, 255, 0.2)', height:50, borderRadius:5
-    }}>
+    <div>
       <ButtonGroup
         aria-label="Basic button group"
-        style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: 40}}
+        style={{ display: 'flex', justifyContent: 'space-evenly' }}
       >
-        <Link to='/'>
-          <Button style={{ color: '#552a6f', border: 'none' ,fontSize:25}}>Home</Button>
-        </Link>
-        <Link to='/about'>
-          <Button style={{ color: '#da3d85', border: 'none', fontSize:25 }}>About</Button>
-        </Link>
-        <Link to='/contact'>
-          <Button style={{ color: '#f67f72', border: 'none', fontSize:25 }}>Resume</Button>
-        </Link>
-        <Link to='/projects'>
-          <Button style={{ color: '#fcac3f', border: 'none', fontSize:25 }}>Projects</Button>
-        </Link>
+        <Tooltip title="Home" arrow>
+          <Link to='/'>
+            <Button
+              style={{ ...buttonStyle, color: '#552a6f' }}
+              sx={hoverStyle}
+            >
+              HOME
+            </Button>
+          </Link>
+        </Tooltip>
+        <Tooltip title="About" arrow>
+          <Link to='/about'>
+            <Button
+              style={{ ...buttonStyle, color: '#da3d85' }}
+              sx={hoverStyle}
+            >
+             ABOUT
+            </Button>
+          </Link>
+        </Tooltip>
+        <Tooltip title="Resume" arrow>
+          <Link to='/contact'>
+            <Button
+              style={{ ...buttonStyle, color: '#f67f72' }}
+              sx={hoverStyle}
+            >
+              CONNECT
+            </Button>
+          </Link>
+        </Tooltip>
+        <Tooltip title="Projects" arrow>
+          <Link to='/projects'>
+            <Button
+              style={{ ...buttonStyle, color: '#fcac3f' }}
+              sx={hoverStyle}
+            >
+              PROJECTS
+            </Button>
+          </Link>
+        </Tooltip>
       </ButtonGroup>
     </div>
   );
