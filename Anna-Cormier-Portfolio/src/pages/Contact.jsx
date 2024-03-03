@@ -12,7 +12,7 @@ const ResumeDownload = () => {
     
       <div style={{ marginRight: 20 }}>
         <a href={resumePdf} download="AnnaCormier.pdf">
-          <DownloadIcon style={{ fontSize: 40, cursor: 'pointer' ,color:'orange' }} />
+          <DownloadIcon style={{ fontSize: 40, cursor: 'pointer' ,color:'white' }} />
         </a>
       </div>
 
@@ -22,18 +22,18 @@ const ResumeDownload = () => {
           <img
             src={resume}
             alt="Resume Screenshot"
-            style={{ width: '600px', height: 'auto' }}
+            style={{ width: '600px', height: '100vh' }}
           />
       </div>
 
      
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
       <div>
-        <h1 style={{color:'orange', textAlign:'center', flexDirection:'row'}}>LETS CONNECT:</h1>
+        <h1 style={{color:'white', textAlign:'center', flexDirection:'row'}}>LETS CONNECT:</h1>
        </div>
-        <GitHubIcon style={{ fontSize: 40, margin: 10, cursor: 'pointer', color:'orange' }} />
-        <LinkedInIcon style={{ fontSize: 40, margin: 10, cursor: 'pointer' ,color:'orange' }} />
-        <EmailIcon style={{ fontSize: 40, margin: 10, cursor: 'pointer' ,color: 'orange' }} />
+        <GitHubIcon style={{ fontSize: 40, margin: 10, cursor: 'pointer', color:'#da3d85' }} />
+        <LinkedInIcon style={{ fontSize: 40, margin: 10, cursor: 'pointer' ,color:'#f67f72' }} />
+        <EmailIcon style={{ fontSize: 40, margin: 10, cursor: 'pointer' ,color: '#fcac3f' }} />
       </div>
     </div>
   );

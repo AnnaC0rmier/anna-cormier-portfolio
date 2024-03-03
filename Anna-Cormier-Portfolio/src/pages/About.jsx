@@ -50,7 +50,7 @@ export default function MyAbout() {
 
       <Grid item xs={4} style={{display: 'flex', justifyContent: 'center', alignItems:'center'}}>
         <EastIcon
-          style={{ fontSize: 200, margin: 10, cursor: 'pointer', color: 'orange'}}
+          style={{ fontSize: 200, margin: 10, cursor: 'pointer', color: 'white'}}
         />
       </Grid>
 
@@ -89,14 +89,12 @@ export default function MyAbout() {
       </Grid>
 
       <Grid item xs={12}>
-        <Card sx={{ }}>
+        <Card sx={{ background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))`}}>
           <h1 style={{textAlign:'center'}}>LORIUM IPSUM</h1>
           <CardActionArea>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                {LoremIpsum}
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" color="black">
+              {LoremIpsum}
                 {LoremIpsum}
               </Typography>
             </CardContent>

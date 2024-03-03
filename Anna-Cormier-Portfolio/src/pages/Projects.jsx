@@ -1,7 +1,5 @@
 import * as React from 'react';
-import { styled } from '@mui/joy/styles';
 import Grid from '@mui/joy/Grid';
-import Sheet from '@mui/joy/Sheet';
 import Box from '@mui/joy/Box';
 import Card from '@mui/joy/Card';
 import CardCover from '@mui/joy/CardCover';
@@ -60,13 +58,13 @@ export default function RowAndColumnSpacing() {
       </Grid>
       <Grid xs={6}>
        
-        <Card sx={{ maxWidth: 500, marginBottom:3 }}>
+        <Card sx={{ maxWidth: 500, marginBottom:3,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))` }}>
       <CardActionArea>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="div" color="black">
            'LoremIpsum'
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="black">
           {LoremIpsum}
           </Typography>
         </CardContent>
@@ -112,13 +110,13 @@ export default function RowAndColumnSpacing() {
       </Grid>
       <Grid xs={6}>
        
-        <Card sx={{ maxWidth: 500 , marginBottom:3}}>
+        <Card sx={{ maxWidth: 500 , marginBottom:3,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))`}}>
       <CardActionArea>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="div" color="black">
           'LoremIpsum'
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="black">
           {LoremIpsum}
           </Typography>
         </CardContent>
@@ -164,13 +162,13 @@ export default function RowAndColumnSpacing() {
       </Grid>
       <Grid xs={6}>
        
-        <Card sx={{ maxWidth: 500 , marginBottom:3 }}>
+        <Card sx={{ maxWidth: 500 , marginBottom:3,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))` }}>
       <CardActionArea>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="div" color="black">
           'LoremIpsum'
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="black">
           {LoremIpsum}
           </Typography>
         </CardContent>
@@ -216,13 +214,13 @@ export default function RowAndColumnSpacing() {
       </Grid>
       <Grid xs={6}>
   
-        <Card sx={{ maxWidth: 500 , marginBottom:3 }}>
+        <Card sx={{ maxWidth: 500 , marginBottom:3,  background: `linear-gradient(to right, rgba(85, 42, 111, 0.2), rgba(218, 61, 133, 0.5), rgba(246, 127, 114, 0.5), rgba(252, 172, 63, 0.2))` }}>
       <CardActionArea>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="div" color="black">
           'LoremIpsum'
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="black">
           {LoremIpsum}
           </Typography>
         </CardContent>
