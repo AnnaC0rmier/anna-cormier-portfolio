@@ -13,6 +13,7 @@ const LoremIpsum =
 
 export default function MyAbout() {
   return (
+   
     <Grid container spacing={2} justifyContent="space-around" sx={{ margin: '20px' }}>
       <Grid item xs={4}>
         <Box
