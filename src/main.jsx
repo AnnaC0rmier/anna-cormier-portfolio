@@ -2,9 +2,6 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
-
-import '../src/App';
-
 import App from './App';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
